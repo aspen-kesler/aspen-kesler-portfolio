@@ -1,0 +1,366 @@
+header .navbar .navbar-collapse .navbar-nav li a.active{
+  color: #30b1e6;
+}
+header .navbar .navbar-collapse .navbar-nav li:hover a{
+  background: #30b1e6;
+  color: #fff;
+}
+
+header .navbar .navbar-collapse .navbar-nav li ul.drop-down li a:hover {
+  color: #ffffff;
+  background: #30b1e6;
+}
+
+.service-item i {
+  color: #30b1e6;
+}
+
+.contact-item a:hover {
+  color: #30b1e6;
+}
+
+.tp-caption.medium_text .bullet-cap {
+  color: #30b1e6;
+}
+
+
+.service-item:hover i {
+  color: #fff;
+  background: #30b1e6;
+}
+.feat-text i {
+  color: #30b1e6;
+}
+.learn-more {
+  background-color: #30b1e6;
+  margin-left: 90px;
+}
+.top-post a {
+    background: #30b1e6;
+    color: #fff;
+
+}
+
+.more-work {
+  color: #30b1e6;
+
+}
+
+.more-work:hover {
+  border: solid 1px #30b1e6;
+  color: #fff;
+  background-color: #30b1e6;
+}
+
+
+.parallax1 h1 span {
+  color: #30b1e6;
+}
+
+.purchase {
+  background-color: #30b1e6;
+}
+
+.l-more:hover {
+  border: 2px solid #30b1e6;
+  background: #30b1e6;
+  color: #fff;
+}
+
+.main-border {
+  border-bottom: 2px solid #30b1e6;
+}
+
+
+.left-about span {
+  background: #30b1e6;
+  color: #fff;
+
+}
+
+.site-features li i {
+  color: #30b1e6;
+}
+
+
+.buyit a {
+  background-color: #30b1e6;
+}
+
+.prevpost:hover {
+  color: #30b1e6;
+}
+
+.nextpost:hover {
+  color: #30b1e6;
+}
+
+.middle:hover {
+  color: #30b1e6;
+}
+
+.proj-link {
+  background-color: #30b1e6;
+}
+
+.skills-progress p span {
+  color: #30b1e6;
+}
+
+
+.meter > span {
+  background-color: #30b1e6;
+  background-image: -webkit-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: -moz-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: -o-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: linear-gradient(to left, #eb7230, rgba(235,114,48,0));
+}
+
+.statistic-post i{
+  color: #30b1e6;
+}
+
+.filter a:hover, .filter a.active {
+  background-color: #30b1e6;
+
+}
+
+.portfolio .i-icons i{
+  background: #30b1e6;
+}
+
+.pagenation li.active {
+    background: #30b1e6;
+    border: 1px solid transparent;
+}
+.pagenation li:hover {
+    background: #30b1e6;
+    border: 1px solid transparent;
+}
+
+.post-like:hover a,.post-like:hover i,.post-comments:hover a,.post-comments:hover i {
+  color: #30b1e6;
+}
+
+
+blockquote {
+  border-left: 5px solid #30b1e6;
+}
+
+blockquote span {
+  color: #30b1e6 !important;
+}
+
+.tags a:hover {
+  color: #fff;
+  background-color: #30b1e6;
+  border-bottom: 1px solid transparent;
+}
+
+.tweet a {
+  color: #30b1e6;
+}
+
+.user a > span {
+  color: #30b1e6;
+}
+
+.blog-share i:hover {
+  color: #30b1e6;
+}
+
+.user-spec a {
+  color: #30b1e6;
+}
+
+.leave-comment input[type="submit"] {
+  background-color: #30b1e6;
+  border:0;
+}
+
+.adv-item i {
+  color: #30b1e6;
+}
+
+.pricing .btn-md {
+  background-color: #30b1e6;
+}
+
+.price-box:hover .price-name {
+  background: #30b1e6;
+  color: #fff;
+}
+
+.price-box:hover .p-price {
+  color: #30b1e6;
+}
+
+.advantage2 .adv-item i {
+  color: #30b1e6;
+}
+
+.active-header { 
+  color: #30b1e6;
+  margin-bottom: 0;
+}
+
+.process .process-item i {
+  color: #30b1e6;
+}
+
+
+#contact-form input[type="submit"] {
+  background-color: #30b1e6;
+}
+.error-big {
+  text-align: center;
+  color: #30b1e6;
+}
+.error-p a {
+  color: #30b1e6 !important;
+}
+
+.newsletter input[type="submit"] {
+  background-color: #30b1e6;
+ }
+
+.html-style span {
+  background: #30b1e6;
+}
+
+.html-style a {
+  color: #30b1e6;
+}
+
+.bullets i {
+  color: #30b1e6;
+}
+
+.bullets .li-circle {
+  color: #30b1e6;
+}
+.bullets .li-ol {
+  color: #30b1e6;
+}
+
+.dropcaps .naked-drop span{
+  color: #30b1e6;
+}
+
+.dropcaps .full-drop span{
+  background: #30b1e6;
+  color: #fff;
+}
+
+.tabs-widget .tab-links li.active {
+  border-top: 2px solid #30b1e6;
+
+}
+
+.tabs-widget .tab-links li.active a{
+  color: #30b1e6;
+}
+
+.progress-bars .skills-progress p span {
+  color: #30b1e6;
+}
+
+.progress-bars .meter > span {
+  background-color: #30b1e6;
+  background-image: -webkit-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: -moz-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: -o-linear-gradient(right, #eb7230, rgba(235,114,48,0));
+  background-image: linear-gradient(to left, #eb7230, rgba(235,114,48,0))
+}
+
+.typing:focus {
+  border:1px solid  #30b1e6 !important;
+}
+
+.flex-control-paging li a:hover {
+	background:#30b1e6;
+}
+.flex-control-paging li a.flex-active {
+	background:#30b1e6;
+}
+
+.tp-caption a.lmore {
+	background-color: #30b1e6;
+}
+
+.tp-bullets.simplebullets .bullet:hover,.tp-bullets.simplebullets .bullet.selected			 {
+	background:#30b1e6;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #30b1e6;
+	border: 2px solid transparent;
+}
+
+.tp-caption a.lmore:hover {
+  	background: #2b9ecd;
+}
+
+.learn-more:hover {
+  background: #2b9ecd;
+}
+
+.purchase:hover {
+  background: #2b9ecd;
+}
+
+.buyit a:hover {
+  background: #2b9ecd;
+}
+
+.proj-link:hover {
+  background: #2b9ecd;
+}
+
+.aside-categories li a:hover {
+  color: #2b9ecd;
+}
+
+.leave-comment input[type="submit"]:hover {
+  background: #2b9ecd;
+}
+
+.pricing .btn-md:hover {
+    background: #2b9ecd;
+ 
+}
+
+#contact-form input[type="submit"]:hover {
+  background: #2b9ecd;
+}
+
+
+.welcome .main-title span {
+  color: #2b9ecd;
+}
+
+.advantage2 .adv-title h1 {
+  background: #2b9ecd;
+}
+
+.advantage2 .adv-title h1:after {
+  border-top: 15px solid #2b9ecd;
+  }
+
+.testimonials .bxslider span {
+  color: #2b9ecd;
+}
+
+.contact-item i {
+  background: #2b9ecd;
+}
+
+
+
+
+
+
+
+
