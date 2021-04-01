@@ -1,31 +1,26 @@
 @media screen and (min-width: 1500px) {
     .typewriter-text {
-        letter-spacing: 16px;
-        font-size: 48px;
+        font-size: 4em;
     }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1499px) {
     .typewriter-text {
-        letter-spacing: 8px;
-        font-size: 44px;
+        font-size: 3em;
     }
 
 }
 
 @media screen and (min-width: 700px) and (max-width: 1279px) {
     .typewriter-text {
-        letter-spacing: 6px;
-        font-size: 26px;
+        font-size: 2em;
     }
 
 }
 
 @media screen and (max-width: 699px) {
     .typewriter-text {
-        letter-spacing: 0px;
-        font-size: 20px;
-        width: 40%;
+        font-size: 1em;
     }
 
 }

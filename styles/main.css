@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
     width: 100%;
@@ -9,35 +9,26 @@ html {
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Roboto Slab', serif;
     background-color: #0f1938;
     color: white;
 }
 
-.image-background {
-    width: 100%;
-    height: 100%;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../graphics/frontend-4342425.svg);
-    background-position: center;
-    background-position-y: top;
-    background-size: 80%;
-    background-repeat: no-repeat;
+.typewriter-text-wrapper {
+    width: 50%;
 }
 
 .typewriter-text {
     overflow: hidden;
     position: relative;
-    margin-top: 2%;
-    width: 60%;
-    border-right: 2px solid rgba(0, 0, 0, 0.8);
+    letter-spacing: 4px;
+    width: 100%;
+    border-right: 2px solid rgba(225, 225, 225, 1);
     white-space: nowrap;
+    padding-right: -2px;
     
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+               blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 /*
@@ -58,22 +49,16 @@ animation-fill-mode: both;
     }
     
     to {
-        width: 60%;
+        width: 100%;
     }
 }
 
 @keyframes blinkTextCursor {
     from {
-        border-right-color: rgba(0, 0, 0, 0.8)
+        border-right-color: rgba(225, 225, 225, 1)
     }
     
     to {
         border-right-color: transparent;
     }
-}
-
-.lower-body {
-    width: 80%;
-    background-color: #00d9c0;
-    margin-left: 10%;
 }
