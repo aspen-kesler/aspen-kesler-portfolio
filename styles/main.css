@@ -14,18 +14,18 @@ body {
     color: white;
 }
 
-.typewriter-text-wrapper {
-    width: 50%;
+header {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .typewriter-text {
+    grid-column-start: 3;
     overflow: hidden;
     position: relative;
     letter-spacing: 4px;
-    width: 100%;
     border-right: 2px solid rgba(225, 225, 225, 1);
     white-space: nowrap;
-    padding-right: -2px;
     
     animation: typewriter 4s steps(40) 1s 1 normal both,
                blinkTextCursor 500ms steps(40) infinite normal;
@@ -43,16 +43,6 @@ animation-fill-mode: both;
 
 */
 
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-    
-    to {
-        width: 100%;
-    }
-}
-
 @keyframes blinkTextCursor {
     from {
         border-right-color: rgba(225, 225, 225, 1)
@@ -61,4 +51,20 @@ animation-fill-mode: both;
     to {
         border-right-color: transparent;
     }
+}
+
+.kde-logo-desktop {
+    margin-top: -65px;
+}
+
+.kde-logo-laptop {
+    margin-top: -60px;
+}
+
+.side-header {
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
