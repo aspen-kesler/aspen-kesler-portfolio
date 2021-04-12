@@ -26,7 +26,7 @@ nav {
 }
 
 nav a.underline {
-    font-size: 3em;
+    font-size: 3vw;
     color: white;
     position: relative;
     text-decoration: none;
@@ -50,9 +50,14 @@ nav a.underline:hover:before {
 }
 
 .main-body {
+    padding: 0 1%;
     height: 88%;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.main-body img {
+    width: 50%;
 }
 

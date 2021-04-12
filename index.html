@@ -14,6 +14,7 @@
     <body>
         <header>
             <nav>
+                <a href="index.html" class="underline" alt="Home">Home</a>
                 <a href="pages/about.html" class="underline" alt="About Me">About Me</a>
                 <a href="#" class="underline" alt="Web Dev">Web Dev</a>
                 <a href="#" class="underline" alt="Graphics">Graphics</a>
@@ -36,69 +37,3 @@
             </div>
         </div>
     </body>
-
-
-<!--
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-body{
-  padding: 40px;
-}
-
-p {
-  font-family: 'Roboto Slab', serif;
-  font-size: 28px;
-  font-weight: bold;
-  width: 400px;
-}
-/* Animation */
-p {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-}
-
-p: nth-child(2)
-{
-    white-space:nowrap;
-    overflow:hidden;
-   animation: animated-text2 4s steps(29,end) 1s 1 normal both;
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-/* text animation */
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-@keyframes animated-text2{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,0,0,.75);}
-  to{border-right-color: transparent;}
-}
-
-
- var content = 'Kesler Digital Expressions';
-
-var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
-
-
-$(ele).hide().appendTo('p').each(function (i) {
-    $(this).delay(100 * i).css({
-        display: 'inline',
-        opacity: 0
-    }).animate({
-        opacity: 1
-    }, 100);
-});   -->
