@@ -1,0 +1,39 @@
+.typewriter-about-wrapper {
+    width: 20%;
+    font-size: 7vw;
+    overflow: hidden;
+    position: relative;
+    border-right: 4px solid rgba(225, 225, 225, 1);
+    white-space: nowrap;
+    
+    animation:  typewriter 2s steps(30) 1s 1 normal both,
+                blinkTextCursor 500ms steps(30) infinite normal;
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(225, 225, 225, 1)
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 20%;
+    }
+}
+
+.picture {
+    float: left;
+}
+
+.typewriter-about-wrapper {
+    float: left;
+}
