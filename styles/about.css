@@ -6,8 +6,8 @@
     border-right: 4px solid rgba(225, 225, 225, 1);
     white-space: nowrap;
     
-    animation:  typewriter 2s steps(30) 1s 1 normal both,
-                blinkTextCursor 500ms steps(30) infinite normal;
+    animation:  typewriter 2s steps(20) 1s 1 normal both,
+                blinkTextCursor 500ms steps(20) infinite normal;
 }
 
 @keyframes blinkTextCursor {
@@ -32,8 +32,22 @@
 
 .picture {
     float: left;
+    padding: 0 3%;
 }
 
 .typewriter-about-wrapper {
-    float: left;
+    margin-left: 60%;
+}
+
+.about-wrapper {
+    font-size: 1.5vw;
+    color: lightgray;
+    text-align: center;
+    padding-right: 3%;
+}
+
+.about-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
