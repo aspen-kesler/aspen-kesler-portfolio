@@ -36,14 +36,16 @@
 }
 
 .typewriter-about-wrapper {
-    margin-left: 60%;
+    margin-left: 55%;
 }
 
 .about-wrapper {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
     color: lightgray;
     text-align: center;
-    padding-right: 3%;
+    width: 56%;
+    margin-left: 35%;
 }
 
 .about-wrapper a {
