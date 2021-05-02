@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    padding-top: 3px;
+    padding-top: 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
