@@ -99,7 +99,16 @@
     animation-name: fadeIn; 
 }
 
-.web-dev-skills {
+.skills-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 35%;
+    width: 60%;
+}
+
+.skills-box {
     background-color: lightgray;
+    width: 20%;
 }
 
