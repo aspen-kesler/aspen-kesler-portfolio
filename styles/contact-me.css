@@ -1,0 +1,36 @@
+.title-typewriter-wrapper {
+    margin: 0px 20%;
+    width: 58%;
+    font-size: 6vw;
+    overflow: hidden;
+    position: absolute;
+    border-right: 4px solid rgba(225, 225, 225, 1);
+    white-space: nowrap;
+    
+    animation:  typewriter 4s steps(50) 1s 1 normal both,
+                blinkTextCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(225, 225, 225, 1)
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 58%;
+    }
+}
+
+.cognito {
+    padding-top: 10%;
+}
