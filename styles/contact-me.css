@@ -7,7 +7,7 @@
     border-right: 4px solid rgba(225, 225, 225, 1);
     white-space: nowrap;
     
-    animation:  typewriter 4s steps(50) 1s 1 normal both,
+    animation:  typewriter 4s steps(50) 1.5s 1 normal both,
                 blinkTextCursor 500ms steps(50) infinite normal;
 }
 
@@ -33,4 +33,22 @@
 
 .cognito {
     padding-top: 10%;
+}
+
+.social-media-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.linkedin {
+    padding: 20px;
+}
+
+.facebook {
+    padding: 20px;
+}
+
+.instagram {
+    padding: 20px;
 }
