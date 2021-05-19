@@ -38,7 +38,8 @@
 .social-media-wrapper {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .linkedin {
