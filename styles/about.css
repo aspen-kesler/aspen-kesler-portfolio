@@ -52,17 +52,6 @@
     font-weight: bold;
 }
 
-.certifications-wrapper {
-    margin-top: 300px;
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 200px 200px 200px;
-}
-
-.certifications-wrapper img {
-    width: 250px;
-}
-
 /************SLIDESHOW START***********/
 
 .mySlides {

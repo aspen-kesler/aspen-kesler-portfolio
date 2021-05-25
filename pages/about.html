@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../styles/main.css">
         <link rel="stylesheet" href="../styles/typewriter.css">
         <link rel="stylesheet" href="../styles/about.css">
+        <link rel="stylesheet" href="../styles/modal-images.css">
 
         <script src="../js/slider.js"></script>
     </head>
@@ -43,7 +44,7 @@
             </div>
             <div class="about-me-skills-wrapper">
                 <div class="biography">
-                    <p>My name is Aspen Kesler. I’m a freelance front-end web developer through my company: Kesler Digital Expressions. I started learning web development through an early-college program during my senior year of high school and I'm continuing to teach myself new languages and programs all the time. I’m fluent in multiple web languages and certified in many Adobe programs.<br>
+                    <p>My name is Aspen Kesler. I’m a freelance front-end web developer through my company: <strong>Kesler Digital Expressions</strong>. I started learning web development through an early-college program during my senior year of high school and I'm continuing to teach myself new languages and programs all the time. I’m fluent in multiple web languages and certified in many Adobe programs.<br>
                     <br>When I’m not building websites or editing videos, I’m actively pursuing a career in the field of Interior Architecture and Design. I’ve loved exploring these two career paths and finding the similarities between them. I’m always looking for ways to be creative, help others, and expand my skill set.<br>
                     <br>Navigate to my <a href="contact-me.html" alt="Contact Me page link">Contact Me</a> page if you are interested in working with me or have any questions.</p>
                 </div>
@@ -70,16 +71,15 @@
                 </div>
             </div>
         </div>
-        <!--
         <div class="certifications-wrapper">
-            <img src="../images/certifications/photoshop.jpg" alt="Certification of Adobe Photoshop for Aspen Kesler">
-            <img src="../images/certifications/illustrator.jpg" alt="Certification of Adobe Illustrator for Aspen Kesler">
-            <img src="../images/certifications/premiere-pro.jpg" alt="Certification of Adobe Premiere Pro for Aspen Kesler">
-            <img src="../images/certifications/intro-html-css.jpg" alt="Certification of Introduction to HTML & CSS for Aspen Kesler">
-            <img src="../images/certifications/html5.jpg" alt="Certification of HTML5 for Aspen Kesler">
-            <img src="../images/certifications/js.jpg" alt="Certification of JavaScript for Aspen Kesler">
-            <img src="../images/certifications/visual-design.jpg" alt="Certification of Visual Design for Aspen Kesler">
-            <img src="../images/certifications/video-design.jpg" alt="Certification of Video Design for Aspen Kesler">
-        </div>-->
+            <div class="photoshop-cert">
+                <img id="myImg" src="../images/certifications/icons/adobe-certified-associate-in-visual-design-using-adobe-photoshop.3.png" alt="Photoshop Badge" style="width:100%;max-width:302px">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
