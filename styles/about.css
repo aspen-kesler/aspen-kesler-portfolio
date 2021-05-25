@@ -4,7 +4,7 @@
 }
 
 .typewriter-about-wrapper {
-    margin-left: 55%;
+    margin-left: 52%;
     width: 18%;
     font-size: 6vw;
     overflow: hidden;
@@ -38,10 +38,11 @@
 
 .biography {
     float: left;
-    width: 30%;
-    margin: 5% 0 5% 35%;
+    width: 32%;
+    margin: 8% 0 5% 35%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
+    line-height: 2wv;
     color: lightgray;
 }
 
@@ -108,18 +109,27 @@
 .skills-sections {
     display: flex;
     flex-direction: column;
-    margin-top: 175px;
+    margin-top: 160px;
+}
+
+h5 {
+    margin-left: 100px;
+    margin-bottom: 5px;
+    font-size: 1vw;
 }
 
 .skills-box {
     background-color: #2b4681;
     display: grid;
     grid-template-columns: 50px 1fr;
-    margin: 10px 20px;
+    margin: 0px 100px 20px 100px;
+    width: 300px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .skills-box img {
     margin: 5px;
     width: 33px;
 }
+
 
