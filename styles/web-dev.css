@@ -8,24 +8,24 @@
     align-items: center;
 }
 
-.copper-hills a {
+.work-samples a {
     color: white;
     text-decoration: none;
     font-size: 1.5vw;
     transition: 0.2s;
 }
 
-.copper-hills a:hover {
+.work-samples a:hover {
     color: lightgray;
 }
 
-.copper-hills img {
+.work-samples img {
     float: left;
     padding: 0 20px;
 }
 
-.copper-hills p {
+.work-samples p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.25vw;
-    color: lightgray;
+    font-size: 1.4vw;
+    color: lightgray; 
 }
