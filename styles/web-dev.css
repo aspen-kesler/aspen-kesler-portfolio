@@ -1,10 +1,31 @@
+.work-samples {
+    margin: 0 25px;
+}
+
+.sample-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .copper-hills a {
     color: white;
     text-decoration: none;
     font-size: 1.5vw;
+    transition: 0.2s;
+}
+
+.copper-hills a:hover {
+    color: lightgray;
 }
 
 .copper-hills img {
-    margin-left: 25px;
     float: left;
+    padding: 0 20px;
+}
+
+.copper-hills p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25vw;
+    color: lightgray;
 }
