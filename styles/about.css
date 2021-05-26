@@ -4,7 +4,7 @@
 }
 
 .typewriter-about-wrapper {
-    margin-left: 52%;
+    margin-left: 41%;
     width: 18%;
     font-size: 6vw;
     overflow: hidden;
@@ -39,7 +39,7 @@
 .biography {
     float: left;
     width: 32%;
-    margin: 8% 0 5% 35%;
+    margin: 7% 0 5% 35%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
     line-height: 2wv;
@@ -98,7 +98,7 @@
 .skills-sections {
     display: flex;
     flex-direction: column;
-    margin-top: 160px;
+    margin-top: 80px;
 }
 
 h5 {
@@ -119,6 +119,13 @@ h5 {
 .skills-box img {
     margin: 5px;
     width: 33px;
+}
+
+.typewriter-text {
+    font-size: 5vw;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 40%;
 }
 
 
