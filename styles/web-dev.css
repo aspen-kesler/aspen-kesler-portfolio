@@ -8,6 +8,20 @@
     align-items: center;
 }
 
+#kids-read-work {
+    flex-direction: row-reverse;
+    float: right;
+}
+
+#kids-read-work p {
+    font-size: 3em;
+}
+
+.work-samples > .kids-read h1 {
+    float: right;
+    font-size: 3em;
+}
+
 .work-samples a {
     color: white;
     text-decoration: none;
@@ -29,3 +43,5 @@
     font-size: 1.4vw;
     color: lightgray; 
 }
+
+
