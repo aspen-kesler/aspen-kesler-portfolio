@@ -1,5 +1,5 @@
 .work-samples {
-    margin: 0 25px;
+    margin: 0 35px;
 }
 
 .sample-wrapper {
@@ -8,9 +8,14 @@
     align-items: center;
 }
 
+.kids-read {
+    margin-top: 60px;
+}
+
 #kids-read-work {
     flex-direction: row-reverse;
     float: right;
+    align-items: flex-start;
 }
 
 #kids-read-work p {
