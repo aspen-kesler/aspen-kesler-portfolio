@@ -13,6 +13,16 @@
         <link rel="stylesheet" href="../styles/web-dev.css">
     </head>
     <body>
+    <script>
+    function toggleImage() {
+        var img1 = "../images/work-samples/kids-read/kids-read-before.png";
+        var img2 = "../images/work-samples/kids-read/screencapture-kidsreaduganda-org-home2-html-2021-05-26-14_24_28.png";
+   
+        var imgElement = document.getElementById('toggleImage');
+
+        imgElement.src = (imgElement.src === img1)? img2 : img1;    
+    }
+    </script>
         <header>
             <div class="page-title">.web-dev</div>
             <nav>
@@ -36,7 +46,7 @@
             <div class="kids-read">
                 <a href="https://www.kidsreaduganda.org/home2.html"><h1>Kids Read Uganda Website</h1></a>
                 <div id="kids-read-work" class="sample-wrapper">
-                    <img src="../images/work-samples/kids-read/screencapture-kidsreaduganda-org-home2-html-2021-05-26-14_24_28.png" onclick="this.src='../images/work-samples/kids-read/kids-read-before.png'" alt="Screenshot of Kids Read Uganda Homepage">
+                    <img src="../images/work-samples/kids-read/screencapture-kidsreaduganda-org-home2-html-2021-05-26-14_24_28.png" id="toggleImage" onclick="toggleImage();"/>
                     <p>I worked with Kids Read Uganda to completely rebuild their website. This project took 5 months, from January to May of 2021. It was a pleasure to work with such an influential company and this project gave me the opportunity to explore GoDaddy's Website Builder and Hosting Service in depth. Click the image to the right to see the old Kids Read Uganda website.</p>
                 </div>
             </div>
