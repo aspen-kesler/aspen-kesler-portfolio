@@ -4,26 +4,15 @@
 
 .sample-wrapper {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.kids-read {
-    margin-top: 60px;
-}
-
-#kids-read-work {
     flex-direction: row-reverse;
-    float: right;
-    align-items: flex-start;
+    align-items: center;
 }
 
 #kids-read-work p {
     font-size: 2.5em;
 }
 
-.work-samples > .kids-read h1 {
-    float: right;
+.work-samples h1 {
     font-size: 2.5em;
 }
 
@@ -39,7 +28,6 @@
 }
 
 .work-samples img {
-    float: left;
     padding: 0 20px;
 }
 
@@ -47,12 +35,4 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
     color: lightgray; 
-}
-
-.codepen {
-    margin-top: 1400px;
-}
-
-.codepen h1 {
-    font-size: 2.5em;
 }
