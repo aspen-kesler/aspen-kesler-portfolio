@@ -19,12 +19,12 @@
 }
 
 #kids-read-work p {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .work-samples > .kids-read h1 {
     float: right;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .work-samples a {
@@ -45,15 +45,14 @@
 
 .work-samples p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     color: lightgray; 
 }
 
 .codepen {
-    margin-top: 1100px;
+    margin-top: 1400px;
 }
 
-#copepen p {
-    font-size: 2em;
+.codepen h1 {
+    font-size: 2.5em;
 }
-
