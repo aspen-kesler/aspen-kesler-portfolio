@@ -5,11 +5,14 @@
 .sample-wrapper {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
 }
 
 #kids-read-work p {
     font-size: 2.5em;
+}
+
+#copper-hills-work {
+    align-items: center;
 }
 
 .work-samples h1 {
@@ -35,4 +38,8 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
     color: lightgray; 
+}
+
+#codepen-work p {
+    font-size: 1.9em;
 }
