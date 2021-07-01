@@ -8,10 +8,18 @@
 }
 
 #kids-read-work p {
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 
 #copper-hills-work {
+    align-items: center;
+}
+
+#kids-read-work {
+    align-items: center;
+}
+
+#codepen-work {
     align-items: center;
 }
 
@@ -30,16 +38,13 @@
     color: lightgray;
 }
 
-.work-samples img {
-    padding: 0 20px;
-}
-
 .work-samples p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
-    color: lightgray; 
+    color: lightgray;
+    padding-right: 20px;
 }
 
 #codepen-work p {
-    font-size: 1.9em;
+    font-size: 1.9vw;
 }
