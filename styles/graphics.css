@@ -1,8 +1,13 @@
+h1 {
+    font-size: 3.5vw;
+    margin-left: 35px;
+}
+
 .container {
     padding: 0 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-auto-flow: row dense;
     justify-content: space-around;
     align-content: space-between;
@@ -10,21 +15,11 @@
     align-items: center;
     grid-template-areas:
         "Shirt-1 Hoodie-1"
-        "Shirt-2 Hoodie-1"
-        "Shirt-3 Hoodie-2"
-        "Shirt-4 Hoodie-2"
-        "Shirt-5 Hoodie-3"
-        "Shirt-6 Hoodie-3";
+        "Shirt-2 Hoodie-1";
 }
 .Hoodie-1 { grid-area: Hoodie-1; }
-.Hoodie-2 { grid-area: Hoodie-2; }
-.Hoodie-3 { grid-area: Hoodie-3; }
 .Shirt-1 { grid-area: Shirt-1; }
 .Shirt-2 { grid-area: Shirt-2; }
-.Shirt-3 { grid-area: Shirt-3; }
-.Shirt-4 { grid-area: Shirt-4; }
-.Shirt-5 { grid-area: Shirt-5; }
-.Shirt-6 { grid-area: Shirt-6; }
 
 .container img {
     max-width: 100%;
@@ -38,4 +33,20 @@
     align-content: space-between;
     justify-items: center;
     align-items: center;
+}
+
+.container-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pin-design-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pin-design-container img {
+    max-width: 100%;
+    height: auto;
 }
