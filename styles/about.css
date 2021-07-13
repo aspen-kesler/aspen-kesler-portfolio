@@ -1,6 +1,5 @@
 .bio-section {
-    display: flex;
-    flex-direction: row;
+    top: 0;
 }
 
 .typewriter-about-wrapper {

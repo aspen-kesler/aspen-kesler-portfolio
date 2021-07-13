@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 10%;
+    height: 8%;
 }
 
 .page-title {
@@ -62,7 +62,8 @@ nav a.underline:hover:before {
 }
 
 .main-body {
-    padding-left: 1%;
+    font-size: 6vw;
+    padding: 5px;
     height: 90%;
     display: flex;
     flex-direction: row;
@@ -70,6 +71,104 @@ nav a.underline:hover:before {
 }
 
 .main-body img {
-    width: 60%;
+    max-width: 60%;
 }
 
+.typewriter-wrapper {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.typewriter-text1 {
+    width: 390px;
+    overflow: hidden;
+    position: relative;
+    border-right: 4px solid rgba(225, 225, 225, 1);
+    white-space: nowrap;
+    
+    animation: typewriter1 2s steps(20) 1s 1 normal both,
+                blinkTextCursor1 500ms steps(20) 0s 7 forwards;
+}
+
+@keyframes typewriter1 {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor1 {
+    from {
+        border-right-color: rgba(225, 225, 225, 1)
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.typewriter-text2 {
+    width: 410px;
+    overflow: hidden;
+    position: relative;
+    border-right: 4px solid rgba(225, 225, 225, 1);
+    white-space: nowrap;
+    
+    animation: typewriter2 2s steps(20) 3s 1 normal both,
+                blinkTextCursor2 500ms steps(20) 0s 11 forwards;
+}
+
+@keyframes typewriter2 {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor2 {
+    from {
+        border-right-color: rgba(225, 225, 225, 1)
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.typewriter-text3 {
+    width: 670px;
+    overflow: hidden;
+    position: relative;
+    border-right: 4px solid rgba(225, 225, 225, 1);
+    white-space: nowrap;
+    
+    animation: typewriter3 3s steps(35) 5.5s 1 normal both,
+                blinkTextCursor3 500ms steps(35) infinite normal;
+}
+
+@keyframes typewriter3 {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor3 {
+    from {
+        border-right-color: rgba(225, 225, 225, 1)
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
