@@ -1,12 +1,14 @@
 #badges {
-  width: 80%;
-    margin-top: 0px;
+    margin-top: 170px;
+    max-width: 80%;
+    height: auto;
+    padding: 5px;
 }
 
 #badges > img {
-  width: 25%;
-  padding: 3%;
-  transition: 0.5s;
+    width: 25%;
+    padding: 3%;
+    transition: 0.5s;
 }
 
 .row1, .row2, .row3 {
