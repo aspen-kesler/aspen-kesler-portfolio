@@ -1,4 +1,8 @@
 @media only screen and (max-width:700px) {
+    body {
+        margin: 0;
+    }
+    
     .row1, .row2, .row3 {
         flex-direction: column;
         margin: 0;
@@ -15,7 +19,128 @@
     .main-body {
         display: none;
     }
-        
+    
+    header {
+        display: none;
+    }
+    
+    .mobile-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 7.5vw;
+        color: white;
+    }
+    
+    hr {
+        background-color: white;
+        color: white;
+        width: 100%;
+        height: 4px;
+    }
+    
+    nav {
+        padding-right: none;
+        font-size: 5vw;
+        float: inherit;
+        width: 100%;
+    }
+    
+    nav a.underline {
+        font-size: 5vw;
+        margin: -20px 50px 20px 50px;
+    }
+    
+    .typewriter-about-wrapper {
+        position: relative;
+        margin-left: inherit;
+        margin-top: 15px;
+        font-size: 20vw;
+        width: 58%
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 58%;
+        }
+    }
+    
+    .biography {
+        float: inherit;
+        margin: auto;
+        font-size: 18pt;
+        width: 88%;
+    }
+    
+    .mobile-skills {
+        margin-left: 20%;
+        width: 60%;
+        background-color: #2b4681;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+    }
+    
+    .mobile-bio-image img {
+        margin-left: 20%;
+        max-width: 60%;
+        height: auto;
+    }
+    
+    .mobile-portfolio img {
+        margin-left: 20%;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    
+    .mobile-portfolio p {
+        margin: auto;
+        padding-bottom: 40px;
+        font-size: 18pt;
+        color: lightgray;
+        font-family: 'Ubuntu', sans-serif;
+        width: 88%;
+    }
+    
+    .mobile-video {
+        margin-left: 10%;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 80%;
+        padding-top: 62.5%;
+    }
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cognito {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        margin-left: 0px;
+    }
+
 }
 
 
